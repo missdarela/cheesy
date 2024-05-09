@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cute</title>
+    <style>
+        body{
+            background-color: rgb(59, 55, 55);
+        }
+        button{
+            width: 150px;
+            height: 60px;
+            border-radius: 10px;
+            background-color: rgb(4, 57, 77);
+            color: white;
+            font-size: 22px;
+            border: none;
+        }
+        button:hover{
+            background-color: rgb(18, 106, 141);
+            transform: translateX(3%);
+        }
+        .butt{
+            width: 100%;
+            height: 100%;
+            margin-top:10%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <script>
+        const butt = document.getElementById("click")
+        function addButt(){
+            alert("Hey Handsome 😎😙")
+        }
+    </script>
+</head>
+<body>
+<div class="butt">
+    <button id="click" onclick="addButt()">Click me!!</button>
+</div>
+</body>
+</html>
